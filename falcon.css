@@ -1,0 +1,33 @@
+.fa{
+    color: #008cff;
+} 
+h3{
+    font-family: 'Rubik Wet Paint', cursive;
+}
+#features
+{
+    
+    padding: 15% 15%;
+    background-color: rgb(255, 153, 0);
+    margin:auto;
+}
+.fas{
+    color: #2a3036;
+}
+.fas:hover{
+    color:  rgb(0, 0, 0); 
+}
+p{
+    font-family: 'Bangers', cursive;
+}
+.social{
+    text-align: center;
+   padding-top: 10%;
+   background-color: rgb(255, 255, 255);
+   
+}
+h6{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}

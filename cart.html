@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FALCON</title>
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <!-- bootstrap version 4 link-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        #login{
+    margin-left: 35%;
+    padding-top: 10%;
+   
+}
+.social{
+    text-align: center;
+   padding-top: 16%;
+}
+    </style>
+</head>
+<body>
+    <section>
+        <!--falcon logo with name -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+            <img src="logo.png" width="35" height="35" alt="">
+            <a class="navbar-brand" href="falcon.html">FALCON</a>
+             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!--navbar content desingned-->
+         
+        </nav>
+    </section> 
+
+    <section>
+        <section id="login">
+            <form action="">
+                <table>
+                    <form>
+                        <tr>
+                            <td>
+                                <label for="name">
+                                   <b>NAME:</b>
+                                </label>
+                            </td>
+                            <td><input type="text" id="name" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Address">
+                                    <b>ADDRESS:</b>
+                                </label>
+                            </td>
+                            <td><input type="text" id="Address" />
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="Mobile no.">
+                                    <b>MOBILE NO:</b>
+                                </label>
+                            </td>
+                            <td><input type="number" id="Mobile"/>
+                            </td>
+                        </tr>
+                        <tr>
+                                <form action="/action_page.php">
+                                    <label for="payment"><b> PAYMENT METHOD:</b></label>
+                                    
+                                    <select id="PAYMENT" name="payment">
+                                      <option value="upi">UPI</option>
+                                      <option value="Net-banking">NET-BANKING</option>
+                                      <option value="COD">CASH ON DELIVERY</option>
+                                      <option value="EMI">EMI</option>
+                                    </select>
+                        </tr>
+                    </form>
+                </table>
+                
+                <a href=""><button type="button" class="btn btn-outline-info success btn-lg">Order Now</button></a>
+                </section>
+</section>
+<section>
+  <div class="social">
+  <a href="https://github.com/falcon9205?tab=repositories"> <i class="fab fa-github fa-2x"></i></a>
+   <a href="https://www.linkedin.com/in/himanshu-maurya-7b5273190/"><i class="fab fa-linkedin fa-2x"></i></a>
+   <a href="mailto:mauryahimanshu567@gmail.com"><i class="far fa-envelope fa-2x"></i></a>
+  </div>
+ </section>
+</body>
+</html>
